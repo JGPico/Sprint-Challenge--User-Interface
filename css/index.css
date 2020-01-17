@@ -72,11 +72,18 @@ header{
     margin: 2%;
 }
 
+header div{
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+}
+
 header nav{
     width: 800px;
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
+    margin-bottom: 2%;
 }
 
 header nav a{
@@ -134,6 +141,37 @@ header nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one{
+    background-color: teal;
+}
+#two{
+    background-color: gold;
+}
+#three{
+    background-color: cadetblue;
+}
+#four{
+    background-color: coral;
+}
+#five{
+    background-color: crimson;
+}
+#six{
+    background-color: forestgreen;
+}
+#seven{
+    background-color: darkorchid;
+}
+#eight{
+    background-color: hotpink;
+}
+#nine{
+    background-color: indigo;
+}
+#ten{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
