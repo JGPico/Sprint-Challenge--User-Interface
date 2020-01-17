@@ -66,6 +66,51 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+header div{
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+}
+
+
+header nav{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+}
+
+/* Stretch goal animation */
+
+@keyframes sparkle {
+    from{background-color: mediumorchid;
+    border-radius: 12px;}
+    to{background-color: lightgreen;
+    border-radius: 2px;}
+  }
+
+header nav a:hover{
+    color: blue;
+    animation-name: sparkle;
+    animation-duration: 2s;
+    background-color: lightgreen;
+    border-radius: 2px;
+}
+
+/* Stretch goal animation */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +157,37 @@ p {
     justify-content: center;
 }
 
+#one{
+    background-color: teal;
+}
+#two{
+    background-color: gold;
+}
+#three{
+    background-color: cadetblue;
+}
+#four{
+    background-color: coral;
+}
+#five{
+    background-color: crimson;
+}
+#six{
+    background-color: forestgreen;
+}
+#seven{
+    background-color: darkorchid;
+}
+#eight{
+    background-color: hotpink;
+}
+#nine{
+    background-color: indigo;
+}
+#ten{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,9 +202,75 @@ p {
     padding-right: 0;
 }
 
+/* ---- About page CSS --------------*/
+
+.aboutAbout{
+    margin-bottom: 4%;
+    border-bottom: 2px dotted black;
+    padding-bottom: 4%;
+}
+
+.about-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.button{
+    line-height: 1.4;
+    color: black;
+    text-decoration: none;
+    margin-top: 10%;
+    padding: 2px;
+    padding-left: 5px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.button:hover{
+    background-color: grey;
+    color: blue;
+}
+
+.about-content{
+    width: 48%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content.upper{
+    border-bottom: 2px dotted black;
+}
+
+.about-content.lower{
+    border-bottom: 2px dotted grey;
+}
+
+.aboutLetsWork{
+    margin-top: 2%;
+}
+
+/* ---- About page CSS --------------*/
+
 footer {
     width: 100%;
     background: black;
+    margin: 2% 0 2% 0;
 }
 
 footer nav {
