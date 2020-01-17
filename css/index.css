@@ -78,6 +78,7 @@ header div{
     flex-direction: column;
 }
 
+
 header nav{
     width: 800px;
     display: flex;
@@ -91,9 +92,22 @@ header nav a{
     margin: 2%;
 }
 
+/* Stretch goal animation */
+
+@keyframes sparkle {
+    from{background-color: lightgrey;
+    border-radius: 12px;}
+    to{background-color: lightgreen;
+    border-radius: 2px;}
+  }
+
 header nav a:hover{
     color: blue;
+    animation-name: sparkle;
+	animation-duration: 2s;
 }
+
+/* Stretch goal animation */
 
 .container {
     width: 800px;
@@ -228,6 +242,7 @@ header nav a:hover{
 }
 
 /* ---- About page CSS --------------*/
+
 footer {
     width: 100%;
     background: black;
