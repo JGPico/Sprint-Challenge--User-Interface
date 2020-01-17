@@ -186,9 +186,52 @@ header nav a:hover{
     padding-right: 0;
 }
 
+/* ---- About page CSS --------------*/
+
+.aboutAbout{
+    margin-bottom: 4%;
+    border-bottom: 2px dotted black;
+    padding-bottom: 4%;
+}
+
+.about-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page img{
+    width: 100%;
+}
+
+.about-content{
+    width: 48%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.about-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content.upper{
+    border-bottom: 2px dotted black;
+}
+
+.about-content.lower{
+    border-bottom: 2px dotted grey;
+}
+
+.aboutLetsWork{
+    margin-top: 2%;
+}
+
+/* ---- About page CSS --------------*/
 footer {
     width: 100%;
     background: black;
+    margin: 2% 0 2% 0;
 }
 
 footer nav {
